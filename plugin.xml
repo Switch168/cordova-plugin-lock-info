@@ -5,7 +5,7 @@
     <description>Cordova plugin to check locked/unlocked state</description>
     <license>Apache 2.0</license>
     <keywords>cordova,lock,unlock</keywords>
-    <repo>https://github.com/polybuildr/cordova-plugin-lock-info</repo>
+    <repo>https://github.com/schmookeeg/cordova-plugin-lock-info</repo>
     <js-module src="www/lock-info.js" name="lockinfo">
         <clobbers target="cordova.plugins.lockInfo" />
     </js-module>
