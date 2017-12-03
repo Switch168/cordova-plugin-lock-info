@@ -22,5 +22,9 @@ lock.isScreen = function (successCallback, errorCallback) {
     );
 }
 
+exports.getDeviceMeta = function(success, error) {
+    exec(success, error, "DeviceMeta", "getDeviceMeta", []);
+};
+
 
 module.exports.isLocked = lock;
