@@ -111,7 +111,7 @@ public class DeviceMeta extends CordovaPlugin {
     }
     
     private int getDNDMode() {
-        AudioManager am = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+        AudioManager am = (AudioManager) ctx.getSystemService(Context.AUDIO_SERVICE);
         return am.getRingerMode(); 
     }
 
